@@ -1,49 +1,49 @@
 body {
-    background: url(fond\ cascade.png);
-    width: 1080px;
-    height: 720px;
-    background-size: 1500px 1000px;
+    background: url(fond\ cascade.png) fixed;
+    background-size: 100em 100em;
     margin: 0;
     padding: 0;
 }
-body{margin: 0; padding: 0;}
 #image{
     display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
+    justify-content: space-around;
 }
 img{
-    width:400px;
+    width:405px;
     height: auto;
     text-align: center;
     margin: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-
+}
+#titre{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 h1{
+    
+    
+    padding: 1px;
     color: pink;
-    border: 5px solid ;
-    text-align: center;
-    margin: 150px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    width: 100%;
+    border: 5px pink solid;
+    
 }
 ol{
+    background-color: blueviolet;
     display: flex;
-    color: rgb(255, 0, 221);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     margin: 0px;
     margin-top: 0;
     justify-content: space-around;
+    list-style: none;
+    margin-bottom: 0;
 }
 
 p{
     color: pink;
-    font-size: 20px; 
-    text-align: center;
-    margin-left: 150px;
-    margin-bottom: 2px;
 }
-
+#paratexte{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
